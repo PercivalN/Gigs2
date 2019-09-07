@@ -13,7 +13,7 @@
         <!--Gigs Table View Controller-->
         <scene sceneID="zgo-Lj-G6Y">
             <objects>
-                <tableViewController id="1uN-vz-9id" customClass="GigsTableViewController" customModule="Gigs" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="1uN-vz-9id" customClass="GigsTableViewController" customModule="Gigs2" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oK6-zX-VPI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,7 +61,7 @@
         <!--Login Table View Controller-->
         <scene sceneID="d6G-YG-Xck">
             <objects>
-                <viewController id="X9o-5k-23E" customClass="LoginTableViewController" customModule="Gigs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="X9o-5k-23E" customClass="LoginTableViewController" customModule="Gigs2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FLj-Da-Ojy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

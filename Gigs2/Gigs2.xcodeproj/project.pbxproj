@@ -7,25 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD559D3923244D8500739E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD559D3823244D8500739E3A /* AppDelegate.swift */; };
-		DD559D3B23244D8500739E3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD559D3A23244D8500739E3A /* ViewController.swift */; };
-		DD559D3E23244D8500739E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD559D3C23244D8500739E3A /* Main.storyboard */; };
-		DD559D4023244D8700739E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD559D3F23244D8700739E3A /* Assets.xcassets */; };
-		DD559D4323244D8700739E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD559D4123244D8700739E3A /* LaunchScreen.storyboard */; };
-		DD559D4D23244EAD00739E3A /* GigsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD559D4C23244EAD00739E3A /* GigsTableViewController.swift */; };
-		DD559D502324500A00739E3A /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD559D4F2324500A00739E3A /* LoginTableViewController.swift */; };
+		DD559D53232468A600739E3A /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = DD559D3C23244D8500739E3A /* Main.storyboard */; };
+		DD559D59232468EC00739E3A /* Gigs2.app in Sources */ = {isa = PBXBuildFile; fileRef = DD559D3523244D8500739E3A /* Gigs2.app */; };
+		DD559D5F23246C6700739E3A /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD559D5E23246C6700739E3A /* LoginTableViewController.swift */; };
+		DD559D6123246CC300739E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD559D6023246CC300739E3A /* AppDelegate.swift */; };
+		DD559D6323246D5000739E3A /* GigsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD559D6223246D5000739E3A /* GigsTableViewController.swift */; };
+		DD559D652324716A00739E3A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD559D642324716A00739E3A /* Info.plist */; };
+		DD559D672324741400739E3A /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD559D662324741400739E3A /* Bearer.swift */; };
+		DD559D6A2324760F00739E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD559D692324760F00739E3A /* Assets.xcassets */; };
+		DD559D6C2324778500739E3A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD559D6B2324778500739E3A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD559D3523244D8500739E3A /* Gigs2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gigs2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD559D3823244D8500739E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD559D3A23244D8500739E3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD559D3D23244D8500739E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD559D3F23244D8700739E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD559D4223244D8700739E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DD559D4423244D8700739E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD559D4C23244EAD00739E3A /* GigsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigsTableViewController.swift; sourceTree = "<group>"; };
-		DD559D4F2324500A00739E3A /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		DD559D51232454D400739E3A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DD559D5E23246C6700739E3A /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginTableViewController.swift; path = "Gigs2/View Controller/LoginTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		DD559D6023246CC300739E3A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Gigs2/Resources/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		DD559D6223246D5000739E3A /* GigsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GigsTableViewController.swift; path = "Gigs2/View Controller/GigsTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		DD559D642324716A00739E3A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Gigs2/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		DD559D662324741400739E3A /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bearer.swift; path = Gigs2/Models/Bearer.swift; sourceTree = SOURCE_ROOT; };
+		DD559D692324760F00739E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Gigs2/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		DD559D6B2324778500739E3A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Gigs2/User.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 		DD559D2C23244D8500739E3A = {
 			isa = PBXGroup;
 			children = (
+				DD559D51232454D400739E3A /* Default-568h@2x.png */,
 				DD559D3723244D8500739E3A /* Gigs */,
 				DD559D3623244D8500739E3A /* Products */,
 			);
@@ -62,6 +68,7 @@
 				DD559D3A23244D8500739E3A /* ViewController.swift */,
 				DD559D4A23244DAC00739E3A /* Storyboard */,
 				DD559D4E23244EB300739E3A /* View Controller */,
+				DD559D682324741E00739E3A /* Models */,
 			);
 			path = Gigs;
 			sourceTree = "<group>";
@@ -78,20 +85,30 @@
 		DD559D4B23244DBC00739E3A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DD559D3823244D8500739E3A /* AppDelegate.swift */,
-				DD559D3F23244D8700739E3A /* Assets.xcassets */,
-				DD559D4423244D8700739E3A /* Info.plist */,
+				DD559D692324760F00739E3A /* Assets.xcassets */,
+				DD559D642324716A00739E3A /* Info.plist */,
+				DD559D6023246CC300739E3A /* AppDelegate.swift */,
 			);
-			path = Resources;
+			name = Resources;
+			path = Gigs2/Resources;
 			sourceTree = "<group>";
 		};
 		DD559D4E23244EB300739E3A /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DD559D4C23244EAD00739E3A /* GigsTableViewController.swift */,
-				DD559D4F2324500A00739E3A /* LoginTableViewController.swift */,
+				DD559D6223246D5000739E3A /* GigsTableViewController.swift */,
+				DD559D5E23246C6700739E3A /* LoginTableViewController.swift */,
 			);
 			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		DD559D682324741E00739E3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD559D662324741400739E3A /* Bearer.swift */,
+				DD559D6B2324778500739E3A /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD559D4323244D8700739E3A /* LaunchScreen.storyboard in Resources */,
-				DD559D4023244D8700739E3A /* Assets.xcassets in Resources */,
-				DD559D3E23244D8500739E3A /* Main.storyboard in Resources */,
+				DD559D6A2324760F00739E3A /* Assets.xcassets in Resources */,
+				DD559D652324716A00739E3A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,10 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD559D3B23244D8500739E3A /* ViewController.swift in Sources */,
-				DD559D502324500A00739E3A /* LoginTableViewController.swift in Sources */,
-				DD559D3923244D8500739E3A /* AppDelegate.swift in Sources */,
-				DD559D4D23244EAD00739E3A /* GigsTableViewController.swift in Sources */,
+				DD559D6123246CC300739E3A /* AppDelegate.swift in Sources */,
+				DD559D6323246D5000739E3A /* GigsTableViewController.swift in Sources */,
+				DD559D59232468EC00739E3A /* Gigs2.app in Sources */,
+				DD559D672324741400739E3A /* Bearer.swift in Sources */,
+				DD559D53232468A600739E3A /* Main.storyboard in Sources */,
+				DD559D5F23246C6700739E3A /* LoginTableViewController.swift in Sources */,
+				DD559D6C2324778500739E3A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +200,7 @@
 				DD559D3D23244D8500739E3A /* Base */,
 			);
 			name = Main.storyboard;
+			path = Gigs2/Storyboard;
 			sourceTree = "<group>";
 		};
 		DD559D4123244D8700739E3A /* LaunchScreen.storyboard */ = {
@@ -189,6 +209,7 @@
 				DD559D4223244D8700739E3A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Gigs2/Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -313,10 +334,9 @@
 		DD559D4823244D8700739E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T87Y8KB3R4;
-				INFOPLIST_FILE = "$(SRCROOT)/Gigs/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Gigs2/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,10 +351,9 @@
 		DD559D4923244D8700739E3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T87Y8KB3R4;
-				INFOPLIST_FILE = "$(SRCROOT)/Gigs/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Gigs2/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
